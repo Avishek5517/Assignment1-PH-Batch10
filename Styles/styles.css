@@ -1,9 +1,16 @@
+
+
 .open-sans-normal{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+}
+
+/* shared styles */
+.sec-title{
+    font-size: ;
 }
 /* nav bar */
 nav{
@@ -74,5 +81,57 @@ nav h3{
     margin-top: 20px;
 }
 /* banner complete */
-/*  */
+/* main section start */
+/* Web dev start*/
+.main-part{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.web-background{
+    border-radius: 16px;
+    background: rgba(110, 147, 182, 0.027);
+
+}
+.dev-part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dev-title1{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.dev-title-description1{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0px 200px;
+}
+.dev-content1{
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+    margin: 0px 50px; 
+    margin-bottom: 50px;
+    background-color: white; 
+}
+.dev-part1-img{
+    width: 350px;
+}
+.dev-content-title1{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+.dev-content-description1{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-bottom: 40px;
+}
+
 
