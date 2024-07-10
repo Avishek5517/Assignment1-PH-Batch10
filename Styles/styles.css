@@ -31,6 +31,10 @@ nav h3{
     text-align: center;
     border-radius: 8px;
     margin-right: 166px;
+    cursor: pointer;
+}
+.btn1:hover{
+background-color: rgb(101, 221, 141);
 }
 /* nav complete */
 /* banner */
@@ -62,7 +66,7 @@ nav h3{
 
 }
 .banner-description{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     margin-top: 10px;
 }
@@ -75,6 +79,11 @@ nav h3{
     border-radius: 8px;
     background: rgb(13, 19, 33);
     margin-top: 20px;
+    cursor: pointer;
+
+}
+.btn2:hover{
+    background-color: rgb(235, 8, 8);
 }
 /* banner complete */
 /* main section start */
@@ -212,3 +221,25 @@ nav h3{
     border-radius: 15px;
 }
 /* support section complete */
+/* footer section start */
+.footer-bg{
+    background-color: rgba(13, 19, 33, 0.03);
+    border-radius: 16px; 
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px 20px 100px;
+}
+.footer-title{
+    font-size: 25px;
+}
+.social-icons{
+    display: flex;
+    gap: 30px;
+}
+.social-icons img{
+    width: 60px;
+}
+/* Footer section complete */
