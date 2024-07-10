@@ -135,5 +135,10 @@ nav h3{
 }
 /* development part complete */
 /* Inspriation par */
+.my-inspiration{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 
