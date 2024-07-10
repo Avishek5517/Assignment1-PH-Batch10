@@ -103,6 +103,7 @@ nav h3{
     font-size: 45px;
     font-weight: 800;
     margin-bottom: 24px;
+    text-align: center;
 }
 .dev-title-description1{
     font-size: 24px;
@@ -147,5 +148,8 @@ nav h3{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     padding: 32px;
+    margin-bottom: 100px;
 }
+/* Inspiration part done */
+/* Current page start */
 
